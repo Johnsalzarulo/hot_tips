@@ -40,11 +40,35 @@ notifications.each do |notification|
 end
 ````
 
-**You an do:**
+**You can do:**
 
 ````ruby
  notifications.each(&:dismiss)
 ````
+
+### Rails / Ruby: Use Next 
+
+**When you need to do:**
+
+````ruby 
+[0,1,2,3].each do |item|
+  if item > 1 
+    puts item
+  end
+end
+````
+
+**You can do:** 
+
+````ruby 
+[0,1,2,3].each do |item|
+  next unless item > 1
+  puts item
+end
+````
+
+
+
 
 
 
