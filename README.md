@@ -67,7 +67,7 @@ end
 end
 ````
 
-### Rails / Ruby: TRY // Quick way to deal with nil 
+### Rails / Ruby: `try` Quick way to deal with nil blowing shit up 💥 
 
 **When you need to do:**
 
