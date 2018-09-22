@@ -67,7 +67,43 @@ end
 end
 ````
 
+### Rails / Ruby: TRY // Quick way to deal with nil 
 
+**When you need to do:**
+
+````ruby
+
+  # ASSUME
+  # We have a user that has_one primary_address. 
+  # A PrimaryAddress has many attributes including a zip code. 
+  
+  # When user has a primary address with zip code
+  
+  user.address.zip_code
+  # Returns "93001" 
+  
+  # However when a user does not have a primary address: 
+  
+  user.address.zip_code
+  # BLOWS THINGS UP
+  # NoMethodError: undefined method `zip_code' for nil:NilClass
+  
+````
+
+**You can do:**
+
+````ruby
+
+  # When user has a primary address with zip code
+  
+  user.address.try(:zip_code)
+  # Returns "93001" 
+  
+  user.address.try(:zip_code)
+  # Returns nil and doesn't blow things up. 
+  
+ 
+````
 
 
 
