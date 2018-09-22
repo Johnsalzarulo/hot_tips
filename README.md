@@ -104,7 +104,7 @@ end
   
 ````
 
-*Note: There is also the `safe navigation` operator - `user.address.&zip_code` that does essentially the same thing -  however - this is only available in ruby >2.3`
+*Note: There is also the `safe navigation` operator - `user.address.&zip_code` that does essentially the same thing -  however - this is only available in ruby >2.3*
 
 
 
