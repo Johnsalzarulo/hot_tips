@@ -1,7 +1,7 @@
 # 🔥 Hot Tips 🔥
 # Rails / Ruby / WebDev Hot tips
 
-### 🛤Rails: Skip Callbacks When Needed
+### Rails: Skip Callbacks When Needed
 
 **Instead of this:**
 
@@ -28,6 +28,23 @@
 
 **OR, just be more careful with callbacks!** 
 
+
+### Rails / Ruby: Performing a method on a collection of objects
+When performing a method on a collection of objects. You can just pass your method as an argument to .each 
+
+**When you need to do:**
+
+````ruby
+notifications.each do |notification|
+  notification.dismiss!
+end
+````
+
+**You an do:**
+
+````ruby
+ notifications.each(&:dismiss)
+````
 
 
 
