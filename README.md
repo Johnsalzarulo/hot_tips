@@ -1,7 +1,7 @@
-# 🔥Hot Tips 🔥
+# 🔥 Hot Tips 🔥
 # Rails / Ruby / WebDev Hot tips
 
-### Rails: Skip Callbacks When Needed
+### 🛤Rails: Skip Callbacks When Needed
 
 **Instead of this:**
 
@@ -26,7 +26,9 @@
 # No callback hell side effects!
 ````
 
-### OR, just be more careful with callbacks! (More tips on this to come)
+**OR, just be more careful with callbacks!** 
+
+
 
 
 
