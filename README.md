@@ -6,7 +6,7 @@
 **Instead of this:**
 
 ````ruby 
-@user.last.update_columns(
+@user.last.update_attributes(
   f_name: 'Michael',
   email: 'mscott@dundermifflin.com'
 )
@@ -18,7 +18,7 @@
 **You can do:**
 
 ````ruby
-@user.last.update_attributes(
+@user.last.update_columns(
   f_name: 'Michael',
   email: 'mscott@dundermifflin.com'
 )
