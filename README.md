@@ -129,7 +129,18 @@ example:
     `;
 
 
-
 ````
+
+### All JS Types
+
+**SNOBUSN**
+
+- **S**tring
+- **N**umber
+- **B**oolean 
+- **O**bject
+- **U**ndefined
+- **S**ymbol
+- **N**ull
 
 
