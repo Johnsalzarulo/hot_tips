@@ -109,4 +109,27 @@ end
 
 
 
+# JavaScript 
+
+WBBJS: 
+### Variables `const` all the time unless I need to change the variable, then it's `let` 
+
+
+### `` `backticks` `` allow multi-line strings and `"` within them. 
+
+example: 
+
+````js 
+
+   const html = `
+  <div class="container">
+    <h2>${name}</h2>
+    <p>${hello}</p>
+  </div>
+`;
+
+
+
+````
+
 
