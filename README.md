@@ -1,5 +1,5 @@
 # 🔥 Hot Tips 🔥
-# Rails / Ruby / WebDev Hot tips
+# Rails / Ruby 
 
 ### Rails: Skip Callbacks When Needed
 
@@ -143,4 +143,16 @@ example:
 - **S**ymbol
 - **N**ull
 
+### `===` vs `==` 
+
+We Bos: "Almost always you should use `===`"
+
+`===` checks for value and type
+
+Example: 
+
+- `10 === 10 // true` 
+-  `10 == 10 // true` 
+- `10 == "10" // true`
+- `10 === "10" // false
 
