@@ -122,11 +122,11 @@ example:
 ````js 
 
    const html = `
-  <div class="container">
-    <h2>${name}</h2>
-    <p>${hello}</p>
-  </div>
-`;
+      <div class="container">
+        <h2>${name}</h2>
+        <p>${hello}</p>
+      </div>
+    `;
 
 
 
