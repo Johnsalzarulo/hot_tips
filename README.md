@@ -181,7 +181,7 @@ function reverse(string) {
   return string.split("").reverse().join("");
 }
 
-reverse(yell(doctorize('john'))); // yell(doctorize('john'));
+reverse(yell(doctorize('john'))); // NHOJ .RD YEH
 
 
 
