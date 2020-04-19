@@ -156,3 +156,7 @@ Example:
 - `10 == "10" // true`
 - `10 === "10" // false`
 
+### JavaScript Function Breakdown 
+
+![funciton breakdown](https://i.imgur.com/bljcORs.png)
+
