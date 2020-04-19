@@ -188,3 +188,21 @@ reverse(yell(doctorize("john"))); // yell(doctorize('john'));
 
 ```
 
+
+### Default Variables in JS 
+
+```js 
+function greet(name = "Silly Goose", greeting = "Hey") {
+  return `${greeting.toUpperCase()} ${name.toUpperCase()}`;
+}
+
+greet(); // HEY SILLY GOOSE 
+
+greet('John', undefined) // HEY JOHN 
+
+greet(undefined, 'Hello') // HELLO SILLY GOOSE
+
+greet('John', 'Hello') // HELLO JOHN
+
+```
+
