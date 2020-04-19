@@ -160,3 +160,30 @@ Example:
 
 ![funciton breakdown](https://i.imgur.com/bljcORs.png)
 
+### Passing Functions into functions 
+
+```js 
+
+// Passing functions into functions 
+function doctorize(name) {
+  return `Dr. ${name}`;
+}
+
+doctorize('John'); // Dr. John
+
+function yell(name) {
+  return `HEY ${name.toUpperCase()}`;
+}
+
+yell(doctorize('john')); // HEY DR. JOHN
+
+function reverse(string) {
+  return string.split("").reverse().join("");
+}
+
+reverse(yell(doctorize('john'))); // yell(doctorize('john'));
+
+
+
+```
+
