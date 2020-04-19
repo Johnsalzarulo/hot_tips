@@ -206,3 +206,32 @@ greet('John', 'Hello') // HELLO JOHN
 
 ```
 
+### Methods in JavaScript Objects 
+This is so fucking powerful, it's like a little lightweight ruby model!
+
+```js
+const john = {
+  name: "John Jacob",
+  sayHi: function() {
+    return `Hey ${this.name}`;
+  },
+  yellHi: function() {
+    return `HEY ${this.name.toUpperCase()}`;
+  },
+  // Arrow function
+  wisperHi: function() {
+    return `hi ${this.name.toLowerCase()}`;
+  }
+};
+
+john.name; // 'John Jacob' 
+
+john.sayHi(); // "Hey John Jacob"
+
+john.yellHi(); // "HEY JOHN JACOB"
+
+john.wisperHi(); // "hi john jacob"
+``` 
+
+
+
