@@ -234,4 +234,20 @@ john.wisperHi(); // "hi john jacob"
 ``` 
 
 
+### Debugging Tips 
+ 
+Given: 
 
+```js
+
+const people = [
+  { name: 'Wes', cool: true, country: 'Canada' },
+  { name: 'Scott', cool: true, country: 'Merica' },
+  { name: 'Snickers', cool: false, country: 'Dog Country' },
+]; 
+
+```
+
+`console.table(people)`returns: 
+
+![consolelogtable](https://i.imgur.com/TAsu432.png)
