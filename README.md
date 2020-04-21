@@ -266,3 +266,7 @@ function doALotOfStuff() {
 }
 
 ```
+
+### $0 in Console 
+
+When you select an element in chrome dev tools you can acces that element via the Javascript console with `$0` [Link to more detail](https://developers.google.com/web/tools/chrome-devtools/console/utilities?utm_campaign=2016q3&utm_medium=redirect&utm_source=dcc#dom)
