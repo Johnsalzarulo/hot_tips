@@ -235,6 +235,8 @@ john.wisperHi(); // "hi john jacob"
 
 
 ### Debugging Tips 
+
+### Console Methods
  
 Given: 
 
@@ -251,3 +253,16 @@ const people = [
 `console.table(people)`returns: 
 
 ![consolelogtable](https://i.imgur.com/TAsu432.png)
+
+### Console Group 
+
+```js 
+function doALotOfStuff() {
+  console.group('Doing some stuff');
+  console.log('Hey Im one');
+  console.warn('watch out!');
+  console.error('hey');
+  console.groupEnd('Doing some stuff');
+}
+
+```
