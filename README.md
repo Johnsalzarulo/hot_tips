@@ -304,3 +304,23 @@ const {width, height} = canvas;
 console.log(width, height);
 
 ```
+
+Another example of pulling items out: 
+
+```js 
+
+// write a draw function that finds and sets the values passed into it. 
+
+function draw({ key }) {
+  console.log(key);
+}
+// write a handler for the keys
+
+function hanldeKey(e) {
+  if (e.key.includes("Arrow")) {
+    e.preventDefault();
+    draw({ key: e.key });
+  }
+}
+
+```
