@@ -288,3 +288,19 @@ console.dir(elementOnPage);
 /// Returns a giantinteractive list of the properties of the given object. 
 
 ```
+
+### Destructing 
+[More on this topic](https://wesbos.com/destructuring-objects)
+
+```js
+// Set values from an object 
+const width = canvas.width;
+const height = canvas.height;
+console.log(width, height);
+
+// Or you can destructure them,
+// autimatically sets and infers valid attributes from the object
+const {width, height} = canvas;
+console.log(width, height);
+
+```
