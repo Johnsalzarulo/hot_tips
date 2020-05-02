@@ -324,3 +324,23 @@ function hanldeKey(e) {
 }
 
 ```
+
+
+### Ternary in JS
+
+
+// Ternary in JavaScript 
+let word = "items" 
+let count = 1
+
+// If Statement
+if (count > 1) {
+  word = "items" 
+} else {
+  word = "item"
+};
+
+// Same If Statement as Ternary
+word = count > 1 ? "items" : "item";
+
+let sentence = `You have ${count} ${word} in your cart` // "You have 1 item in your cart"
