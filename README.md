@@ -107,7 +107,7 @@ end
 *Note: There is also the `safe navigation` operator - `user.address.&zip_code` that does essentially the same thing -  however - this is only available in ruby >2.3*
 
 
-### HTML / Rails Form Patterns 
+### HTML / Rails Form Validate on Pattern
 How did I not know that raw HTML can validate a pattern on input? It's supported by [all major browsers](https://caniuse.com/#feat=input-pattern).
 
 **ERB** (You could do this in vanila HTML as well) 
