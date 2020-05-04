@@ -107,6 +107,18 @@ end
 *Note: There is also the `safe navigation` operator - `user.address.&zip_code` that does essentially the same thing -  however - this is only available in ruby >2.3*
 
 
+### HTML / Rails Form Patterns 
+How did I not know that raw HTML can validate a pattern on input? It's supported by [all major browsers](https://caniuse.com/#feat=input-pattern).
+
+**ERB** (You could do this in vanila HTML as well) 
+
+```erb 
+ <%= f.text_field :email, class: "form-control", placeholder: "hello@getmainstreet.com", pattern: "^[a-zA-Z0-9_.+-]+@(?:(?:[a-zA-Z0-9-]+\.)?[a-zA-Z]+\.)?(getmainstreet)\.com$", title: "The email must be of domain getmainstreet.com" %>
+
+```
+**Result**
+
+![Default pattern matching HTML](https://p50.f0.n0.cdn.getcloudapp.com/items/NQuD78QG/Screen%20Shot%202020-05-04%20at%202.28.12%20PM.png?v=6175987decb28e4bfe3db9b02a4a75c6)
 
 
 # JavaScript 
@@ -344,3 +356,4 @@ if (count > 1) {
 word = count > 1 ? "items" : "item";
 
 let sentence = `You have ${count} ${word} in your cart` // "You have 1 item in your cart"
+
