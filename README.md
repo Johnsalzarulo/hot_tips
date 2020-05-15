@@ -125,7 +125,23 @@ How did I not know that raw HTML can validate a pattern on input? It's supported
 
 Really nice way to build prettier objects in ruby, the double splat nests things. 😎
 
-![Nice way to make cleaner hashes in ruby](https://i.imgur.com/xT78G7W.png)
+```ruby 
+
+ address = {
+   address: "140 Maple Drive",
+   city: "Ventura",
+   state: "CA",
+   zip: "93003"
+ }
+ 
+ user = User.new(
+   email: "john@test.com",
+   phone: "662-505-5050",
+   name: "John Salarulo" 
+   **address
+ )
+
+```
 
 # JavaScript 
 
