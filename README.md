@@ -121,6 +121,12 @@ How did I not know that raw HTML can validate a pattern on input? It's supported
 ![Default pattern matching HTML](https://p50.f0.n0.cdn.getcloudapp.com/items/NQuD78QG/Screen%20Shot%202020-05-04%20at%202.28.12%20PM.png?v=6175987decb28e4bfe3db9b02a4a75c6)
 
 
+### Double Splat 
+
+Really nice way to build prettier objects in ruby, the double splat nests things. 😎
+
+![Nice way to make cleaner hashes in ruby](https://i.imgur.com/xT78G7W.png)
+
 # JavaScript 
 
 WBBJS: 
