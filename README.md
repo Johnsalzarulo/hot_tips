@@ -379,3 +379,22 @@ word = count > 1 ? "items" : "item";
 
 let sentence = `You have ${count} ${word} in your cart` // "You have 1 item in your cart"
 
+
+### Intervals in JS 
+
+So many times I need something to happen imediately and then every few seconds or so after that. For example, checking an API endpoint for content. If you just use SetInterval the first run is always delayed by the timer on the interval instead of running instantly. Here's a straightforward way to do that: 
+
+```js 
+function checkApiEndpoint() {
+  console.log ("checked endpoint", Date());
+}
+
+function imediateInterval(funToRun, ms) {
+  funToRun();
+  return setInterval(funToRun, ms);
+};
+
+imediateInterval(checkApiEndpoint, 1000);
+
+```
+
