@@ -398,3 +398,11 @@ imediateInterval(checkApiEndpoint, 1000);
 
 ```
 
+### Map, Filter, Reduce Explained with Emoji 
+
+[Source](http://www.globalnerdy.com/2016/06/23/map-filter-and-reduce-explained-using-emoji/)
+
+I never really got my head around this fully until seeing this. 
+
+![Map Filter Reduce in Emoji](https://i.imgur.com/Kk3qdbq.png)
+
